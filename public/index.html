@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkyBnb</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+</head>
+<body>
+  <div id="reviews"></div>
+</body>
+<script src="http://127.0.0.1:3001/bundle.js"></script>
+<script>
+    ReactDOM.render(
+      React.createElement(Reviews, { id: Number(window.location.pathname.slice(1)) }),
+      document.getElementById('reviews')
+    );
+  </script>
+  
+</html>
