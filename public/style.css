@@ -1,0 +1,21 @@
+.topModal img {
+  width: 100%;
+  height: auto;
+}
+
+.bodyContent {
+  width: 44rem;
+}
+
+.border {
+  margin-top: 3px;
+  margin-bottom: 23px;
+}
+
+.line {
+  border: solid #ebebeb;
+  border-width: 1px;
+  border-top: 1px;
+  border-right: 1px;
+  border-left: 1px;
+}
