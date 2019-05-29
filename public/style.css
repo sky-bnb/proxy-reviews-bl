@@ -4,7 +4,8 @@
 }
 
 .bodyContent {
-  width: 44rem;
+  width: 37rem;
+  padding: 5px 25px 5px 0px;
 }
 
 .border {
@@ -18,4 +19,36 @@
   border-top: 1px;
   border-right: 1px;
   border-left: 1px;
+}
+
+.allContent {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.calModal {
+  margin-left: 40px;
+}
+
+.titleHomes {
+  justify-content: center;
+  display: grid;
+}
+
+h2.titleClass {
+  margin: 5px 0px 20px 0px;
+}
+
+.explore {
+  padding: 2rem 0rem 1rem 7rem;
+}
+
+.footer1 {
+  padding: 1rem 0rem 0rem 7rem;
+}
+
+.lastBorder {
+  padding: 0rem 0rem 3rem 6rem;
+  width: 65rem;
 }
