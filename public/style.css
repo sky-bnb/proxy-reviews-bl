@@ -2,14 +2,18 @@ body {
   font-family: Quicksand; 
 }
 
-/* .topModal img {
-  width: 100%;
-  height: auto;
-} */
-
 .bodyContent {
   width: 56%;
   margin-right: 2rem;
+}
+
+.topModal {
+  height: 20rem;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
 }
 
 #booking {
@@ -23,8 +27,8 @@ body {
 }
 
 .border {
-  margin-top: 3px;
-  margin-bottom: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .line {
@@ -65,4 +69,55 @@ h2.titleClass {
 .lastBorder {
   padding: 0rem 0rem 3rem 6rem;
   width: 65rem;
+}
+
+.topHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skybnblogo {
+  align-items: center;
+  display: flex;
+}
+
+.signIn {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.skylogo {
+  height: 55px;
+  padding: 10px;
+}
+
+.bigSearch {
+  display: flex;
+  align-items: center;
+  border: solid #d4d4d470;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 1.5px 9px #cecece87;
+  font-size: 19px;
+}
+
+.bigMagnifi {
+  padding: 5px 0px 0px 15px;
+}
+
+.inputBigBoxy {
+  padding: 8px 17rem 8px 11px;
+}
+
+.one {
+  margin-right: 2rem;
+  cursor: pointer
+}
+
+.two {
+  margin-right: 1rem;
+  cursor: pointer
 }
