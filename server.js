@@ -10,9 +10,9 @@ app.use(express.static('public'))
 app.use(morgan('dev'));
 app.use(cors())
 
-app.get('/:propertyId', (req, res) => {
-  res.sendfile(path.join(__dirname, '/public/index.html'));
-});
+// app.get('/:propertyId', (req, res) => {
+//   res.sendfile(path.join(__dirname, '/public/index.html'));
+// });
 
 app.listen(port, () => console.log(`Proxy server running from port ${port}!`))
 

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>SkyBnb</title>
+  <link href=“https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap” rel=“stylesheet”>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
@@ -10,19 +11,19 @@
 </head>
 <body>
   <div class="topModal">
-    <img src="https://s3-us-west-1.amazonaws.com/sky-bnb/top-modal.png" />
+      <div id="photo"></div>
   </div>
   <div class="allContent">
     <div class="bodyContent">
       <div id="general"></div>
       <div>
-        Calendar goes here!!!!
+        <div id="calendar"></div>
       </div>
       <div id="reviews"></div>
       <div id="neighborhood"></div>
     </div>
     <div class="calModal">
-      <img src="https://s3-us-west-1.amazonaws.com/sky-bnb/booking.png" />
+        <div id="booking"></div>
     </div>
   </div> 
   <div class="bottomPortion">
@@ -51,7 +52,7 @@
       </div>
     </div>
     <div class="footer1">
-      <img src="https://s3-us-west-1.amazonaws.com/sky-bnb/footer1.png" />
+     <img src="https://s3-us-west-1.amazonaws.com/sky-bnb/explore.png" />
     </div>
     <div class="lastBorder">
       <div class="border">
@@ -64,23 +65,11 @@
       </div>
     </div>
   </div>
-
 </body>
 <script src="http://127.0.0.1:3001/bundle.js"></script>
+<script src="http://127.0.0.1:3002/bundle.js"></script>
+<script src="http://127.0.0.1:3003/bundle.js"></script>
+<script src="http://127.0.0.1:3004/bundle.js"></script>
 <script src="http://127.0.0.1:3005/bundle.js"></script>
 <script src="http://127.0.0.1:3006/bundle.js"></script>
-<script>
-    ReactDOM.render(
-      React.createElement(General),
-      document.getElementById('general')
-    );
-    ReactDOM.render(
-      React.createElement(Reviews, { id: Number(window.location.pathname.slice(1)) }),
-      document.getElementById('reviews')
-    );
-    ReactDOM.render(
-      React.createElement(Neighborhood),
-      document.getElementById('neighborhood')
-    );
-  </script>
 </html>
