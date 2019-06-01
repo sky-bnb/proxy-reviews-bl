@@ -7,23 +7,25 @@ body {
   margin-right: 2rem;
 }
 
+#calendar {
+  position: absolute;
+  left: -12px;
+}
+
 .topModal {
-  height: 20rem;
-  display: flex;
-  overflow: hidden;
-  align-items: center;
   border: solid;
-  border-width: 1px;
+  border-width: 0px;
 }
 
 #booking {
   position: sticky;
-  top: 0;
+  top: 20px;
 }
 
 .hid {
+  position: relative;
+  height: 23rem;
   overflow: hidden;
-  margin-right: -30px;
 }
 
 .border {
